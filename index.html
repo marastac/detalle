@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Daniela ✨</title>
+  <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+  <canvas id="petals-canvas"></canvas>
+  <div id="particles-js"></div>
+
+  <audio autoplay loop>
+    <source src="media/bajo-el-agua.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+
+  <div class="container" id="container">
+    <div class="intro" id="intro">
+      <h1>Para Daniela ✨</h1>
+      <p>Haz clic en la flor y descubre lo que siento por ti...</p>
+    </div>
+
+    <div class="flower" id="flower">
+      <div class="petal petal1"></div>
+      <div class="petal petal2"></div>
+      <div class="petal petal3"></div>
+      <div class="petal petal4"></div>
+      <div class="center"></div>
+    </div>
+
+    <div class="gallery" id="gallery"></div>
+
+    <div class="final" id="final">
+      <h2>Gracias por estar en mi vida. Te amo ♥</h2>
+      <div class="big-heart"></div>
+
+      <video autoplay muted playsinline controls width="320">
+        <source src="media/amor.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+      </video>
+
+      <div class="quote-box">
+        <h3>Sorpresa final ✨</h3>
+        <p id="quoteBox">Cargando algo especial...</p>
+      </div>
+
+      <div class="surprise-box" onclick="showHearts()">Presiona aquí 🎁</div>
+      <div class="surprise-hearts" id="hearts">
+        💖 💘 💝 💞 💓 💗 💕<br><br>
+        <strong>¡Te ganaste una eternidad conmigo!</strong><br><br>
+        <a href="#" onclick="showLetter()" style="color:#d81b60;text-decoration:underline;font-weight:bold;">Leer mi carta para ti</a>
+      </div>
+
+      <div class="love-letter" id="loveLetter">
+        <p><strong>Hola, amor:</strong></p>
+        <p>Sé que hemos vivido momentos buenos y también momentos difíciles. A veces la vida nos pone a prueba, pero incluso en los días más oscuros, hay algo que nunca cambia: <strong>mi amor por ti</strong>.</p>
+        <p>No soy el hombre perfecto, lo sé. Cometo errores, y quizás no siempre te doy todo lo que mereces… pero lo que sí he aprendido es a <strong>amarte con todo mi ser</strong>, mucho más de lo que te imaginas. Eres lo más hermoso que tengo en la vida, y te pido perdón si alguna vez te hice sentir menos de lo que realmente vales.</p>
+        <p>A veces pienso en todo lo que mereces, en todo lo que debería darte, y me duele no poder ofrecértelo aún… porque lo que tú vales no se puede medir. <strong>Eres mi reina, mi compañera, mi fuerza, mi todo.</strong> Solo quiero que sepas que <strong>te amo</strong> profundamente y haré todo lo posible para construir un futuro a tu lado.</p>
+        <p>Creo en nosotros, en lo que somos juntos. Somos un par de guerreros que no se rinden, que luchan codo a codo sin importar los tropiezos. Si algo no nos sale bien, lo intentamos una y otra vez, y eso es lo que nos hace fuertes.</p>
+        <p><strong>Permíteme crecer contigo</strong>, tomar tu mano y dejar el pasado atrás. Quiero convertir cada error en una lección, y cada lección en una fortaleza para ser la mejor versión de nosotros. Porque contigo he aprendido que el amor verdadero no es perfecto, pero sí es persistente, valiente y real.</p>
+        <p><strong>Te amo, Daniela</strong>, con todo lo que soy y todo lo que seré. Gracias por existir, por ser tú, y por darme razones para seguir creyendo en el amor.</p>
+        <p>Siempre tuyo,<br><strong>Mario</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
